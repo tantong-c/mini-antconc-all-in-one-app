@@ -195,7 +195,7 @@ with st.sidebar:
         st.warning("⚠️ โหมด Manual: ไฟล์ต้องมี | คั่นคำมาแล้ว")
 
     st.link_button("Thai Word Segmenter App",
-                   "https://thai-word-seg-app-rhvzfn7jkxytwlqydi8idq.streamlit.app/")
+                   "https://thai-word-seg-app.streamlit.app/")
 
 if uploaded_files:
     with st.spinner('กำลังอ่านไฟล์และตัดคำ (Tokenizing)...'):
